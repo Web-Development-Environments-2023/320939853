@@ -83,7 +83,7 @@
         Google Search Engine uses artificial intelligence and machine learning algorithms to answer the user personally. <br>
      </p>
         </p>
-        <h6><span id="Contact"></span>Contact Me</h6>
+          <h6><span id="Contact"></span>Contact Me</h6>
         <div class="center">
         <form action="mailto:tseytlin@post.bgu.ac.il"
         method="post"
@@ -92,8 +92,23 @@
         <input type="email" id="email" name="email"><br>
         <label for="ContactCommentt">Message:</label><br>
         <textarea name="ContactCommentt" id="ContactCommentt" rows="15" cols="40" required></textarea><br>
+        <lable for="Emoji">Choose Emoji:</lable>
+        <select id="smile" name="smile" oninput="addEmoji()">
+            <option value="🙂">🙂</option>
+            <option value="🍕">🍕</option>
+            <option value="🏆">🏆</option>
+            <option value="👓">👓</option>
+          </select><br>
         <input type="submit" value="Send">
         </form>
     </div>
     </body>
-</html>
+
+
+    <script>
+    function addEmoji() {
+      var message = document.getElementById("message").value;
+      var emoji = document.getElementById("smile").value;
+      document.getElementById("message").value = message + emoji;
+    }
+  </script>
