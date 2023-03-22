@@ -85,14 +85,13 @@
         </p>
         <h6><span id="Contact"></span>Contact Me</h6>
         <div class="center">
-        <form action=”mailto:tseytlin@post.bgu.ac.il”
-        method=”POST”
-        enctype=”text/plain”
-        name=”EmailForm”>
-        <label for="EmailAddress">Please Mention Your Email Address:</label><br>
-        <input type="email" id="email" name="Email"><br>
+        <form action="mailto:tseytlin@post.bgu.ac.il"
+        method="post"
+        enctype="text/plain">
+        <label for="email">Please Mention Your Email Address:</label><br>
+        <input type="email" id="email" name="email"><br>
         <label for="ContactCommentt">Message:</label><br>
-        <textarea id=”ContactCommentt” rows="15" cols="40"></textarea><br>
+        <textarea name="ContactCommentt" id="ContactCommentt" rows="15" cols="40" required></textarea><br>
         <input type="submit" value="Send">
         </form>
     </div>
