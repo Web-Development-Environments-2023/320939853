@@ -1,193 +1,79 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
-
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+    <head>
+        <title>Joseph Stalin</title>
+        <meta name="keywords" content="Joseph, Stalin, USSR, Dictator">
+        <meta name="description" content="This is a website about Joseph Stalin designed for 3rd Gen">
+        <link rel="stylesheet" href="Styling.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <ul >
+              <li style="font-family:'Gill Sans', 'Calibri'"><a id="Links" href=#About>About Me</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href="#MyPhotos">MY Photos</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href="#Playlist">My Playlist</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href=#Like>Like</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href=#QR>QR Code</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href=#Q&A>Q&A</a></li>
+              <li style="font-family:'Gill Sans', 'Calibri'"><a href=#Contact>Contact Me</a></li>
+            </ul>
+        </div>
+        <h6><span id="About"></span>About Me</h6>
+        <p class="center" style="font-family:Cambria, 'Times New Roman'">
+            Joseph Stalin was the dictator of the Union of Soviet Socialist Republics (USSR) from 1929 to 1953.<br> Under Stalin, the Soviet Union was transformed from a peasant society into an industrial and military superpower.<br> However, he ruled by terror, and millions of his own citizens died during his brutal reign.<br> Stalin became involved in revolutionary politics, as well as criminal activities, as a young man.<br> After Bolshevik leader Vladimir Lenin died, Stalin outmaneuvered his rivals for control of the party.<br> Stalin aligned with the United States and Britain in World War II but afterward engaged in an increasingly tense relationship with the West known as the Cold War.<br> After his death, the Soviets initiated a de-Stalinization process.
+            </p>
+        <h6><span id="MyPhotos"></span>My Photos</h6>
+        <div id="centerss">
+            <img class="images" src="Stalin1.jpg" alt="Stalin Portrait" style="width:200px;height:150px;"/>
+            <img class="images" src="StalinYoung.jpg" alt="Young Stalin" style="width: 250px;height:150px;"/>
+            <img class="images"  src="Stalin2.jpg" alt="Stalin Portrait" style="width:200px;height:150px;" />
+            <img class="images"  src="Yalta.jpg" alt="Yalta Portrait" style="width:220px;height:150px;" />
+        </div>
+        <h6><span id="Playlist"></span> Playlist</h6>
+        <div id="centerss">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BMYjGkgzinU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
+        <h6><span id="Like"></span>Like</h6>
+        <div id="centerss">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FHumongouss&width=400&layout&action&size&share=false&height=100&appId=152716264093" width="400" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>      
+        </div>
+        <div id="centerss">
+        <h6><span id="QR"></span>QR Code</h6>
+        <h4>Scan Me!</h4>
+        <img class="images" src="Qr_Code.JPG" alt="QR_CODE" style="width:300px;height:300px;"/>
+    </div>
+        <h6><span id="Q&A"></span>Q&A</h6>
+        <h4>Differences Between Web Versions</h4>
+        <h3>Content:</h3>
+        <p class="center" style="font-family:'Gill Sans', 'Calibri'">
+            Web1.0 Had Purpose of Owning Content, each WebSite Seperately.<br>
+            Web2.0 Had Purpose of Sharing Content, between Websites.<br>
+            Web3.0 Based on Purpose of Consolidating each content.<br>
+        </p>
+        <h3>Web Apps:</h3>
+        <p class="center" style="font-family:'Gill Sans', 'Calibri'">
+            Web1.0 was based on Static Websites.<br>
+            Web2.0 is the beginning of web applications.<br>
+            Web3.0 Based on Intelligent web-based functions and apps.<br>
+        </p>
+        <h3>Focus:</h3>
+        <p class="center" style="font-family:'Gill Sans', 'Calibri'">
+            Web1.0 was for Company Focus.<br>
+            Web2.0 was for Community Focus<br>
+            Web3.0 is for individual Focus<br>
+        </p>
+        <h6><span id="Contact"></span>Contact Me</h6>
+        <div class="center">
+        <form action=”mailto:tseytlin@post.bgu.ac.il”
+        method=”POST”
+        enctype=”text/plain”
+        name=”EmailForm”>
+        <label for="EmailAddress">Please Mention Your Email Address:</label><br>
+        <input type="email" id="email" name="Email"><br>
+        <label for="ContactCommentt">Message:</label><br>
+        <textarea id=”ContactCommentt” rows="15" cols="40"></textarea><br>
+        <input type="submit" value="Send">
+        </form>
+    </div>
+    </body>
 </html>
